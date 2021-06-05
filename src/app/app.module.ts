@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FaqComponent } from './faq/faq.component';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { NgxPaginationModule } from 'ngx-pagination';
@@ -20,6 +19,8 @@ import { PatientComponent } from './patient/patient.component';
 import { HospitalComponent } from './hospital/hospital.component';
 import { AddHospitalComponent } from './hospital/add-hospital/add-hospital.component';
 import { AddPatientComponent } from './patient/add-patient/add-patient.component';
+import { UpdateHospitalComponent} from './update-hospital/update-hospital.component';
+import { UpdateDoctorComponent } from './update-doctor/update-doctor.component';
 
 
 
@@ -30,7 +31,6 @@ import { AddPatientComponent } from './patient/add-patient/add-patient.component
     ContactComponent,
     AboutUsComponent,
     NavbarComponent,
-    FaqComponent,
     LoginComponent,
     AdminComponent,
     DoctorComponent,
@@ -39,7 +39,9 @@ import { AddPatientComponent } from './patient/add-patient/add-patient.component
     PatientComponent,
     AddPatientComponent,
     HospitalComponent,
-    AddHospitalComponent
+    AddHospitalComponent,
+    UpdateDoctorComponent,
+    UpdateHospitalComponent
   ],
   imports: [
     BrowserModule,

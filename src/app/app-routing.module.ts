@@ -13,6 +13,8 @@ import { PatientComponent } from './patient/patient.component';
 import { HospitalComponent } from './hospital/hospital.component';
 import { AddHospitalComponent } from './hospital/add-hospital/add-hospital.component';
 import { AddPatientComponent } from './patient/add-patient/add-patient.component';
+import { UpdateHospitalComponent} from './update-hospital/update-hospital.component';
+import { UpdateDoctorComponent } from './update-doctor/update-doctor.component';
 
 const routes: Routes = [
   { path : 'home', component : HomeComponent},
@@ -29,7 +31,9 @@ const routes: Routes = [
   { path: 'patients', component: PatientComponent},
   { path: 'hospital', component:HospitalComponent},
   { path: 'add-hospital', component:AddHospitalComponent},
-  { path: 'add-patient', component:AddPatientComponent}
+  { path: 'add-patient', component:AddPatientComponent},
+  { path: 'update-doctor', component:UpdateDoctorComponent},
+  { path: 'update-hospital', component:UpdateHospitalComponent}
 
 ];
 
